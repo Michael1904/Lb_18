@@ -1,0 +1,25 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+header, footer {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  header, footer {
+    padding: 0.5rem;
+  }
+}
